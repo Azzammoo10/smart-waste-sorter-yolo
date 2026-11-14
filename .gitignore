@@ -1,0 +1,36 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+
+# Frontend Node Modules & Local Caches
+frontend/node_modules/
+frontend/.vite/
+
+# Test & Tool Caches
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Training Artifacts & Bundles
+runs/
+captures/
+waste_material_detector_bundle/
+*.zip
+
+# Local Datasets & Snapshots
+data/raw/
+data/yolo_dataset/
+data/snapshots/*.jpg
+data/*.db
+data/*.db-journal
+
+# Temporary & Media Files
+*.png
+!docs/assets/*.png
+.DS_Store
+Thumbs.db

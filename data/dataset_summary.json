@@ -1,0 +1,17 @@
+{
+  "name": "TrashNet resized",
+  "source": "https://github.com/garythung/trashnet",
+  "citation": "Gary Thung and Mindy Yang, TrashNet, Stanford CS229 project",
+  "license": "MIT",
+  "total_images": 2527,
+  "classes": {
+    "cardboard": 403,
+    "glass": 501,
+    "metal": 410,
+    "paper": 594,
+    "plastic": 482,
+    "trash": 137
+  },
+  "bundled_path": "data/raw/dataset-resized",
+  "note": "Single-item photographs, mostly on a light background; dataset imbalance and domain shift are limitations."
+}
